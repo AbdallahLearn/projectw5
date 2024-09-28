@@ -3,16 +3,16 @@ import Navbar from "./Navbar";
 
 function Footer() {
   return (
-    <div className="container w-[90%] m-auto max-sm:full m-auto">
+    <div className="container w-[90%] m-auto max-sm:w-full ">
       <div className="container-navba mt-5 flex justify-between items-baseline mb-20 max-sm:flex-col justify-center">
         <img
-          className="pe-10 max-sm:m-auto"
+          className="pe-10 text-center lg:p-0 max-sm:m-auto p-10"
           src="https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-site-logo.svg"
           alt=""
         />
 
-        <div className="logo-nav flex items-baseline " >
-          <ul className="ul-list text-[14px]  justify-evenly gap-5 pt-10 max-sm:flex  lg:flex ">
+        <div className="logo-nav flex items-baseline  max-sm:w-full" >
+          <ul className="ul-list text-[14px]  justify-evenly gap-5 pt-10 max-sm:flex m-auto mb-10 lg:flex ">
             <li>
               <a className="font-normal">Home</a>
             </li>
@@ -32,8 +32,8 @@ function Footer() {
         </div>
 
         
-        <div className="social-media lg:flex z-10">
-          <ul className="social-list flex justify-evenly items-center w-72">
+        <div className="social-media lg:flex z-10 max-sm:m-auto">
+          <ul className="social-list flex justify-evenly items-center w-60 max-sm:flex  ">
             <svg
               fill="#bf7c68"
               xmlns="http://www.w3.org/2000/svg"

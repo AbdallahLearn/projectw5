@@ -90,8 +90,9 @@ function Header() {
             </ul>
           </div>
         </div>
-        <figure>
+        <figure >
           <img
+          className="max-sm:w-80"
             src="https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-hero-img.jpg"
             alt="Album"
           />

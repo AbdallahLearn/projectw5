@@ -3,7 +3,7 @@ import React from "react";
 function Best(props) {
   return (
     <>
-      <div className="card card-compact  w-96 rounded-none max-sm:mb-0 ">
+      <div className="card card-compact  w-80 rounded-none max-sm:mb-0 ">
         <figure>
           <img src={props.img} alt="" />
         </figure>

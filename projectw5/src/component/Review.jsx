@@ -3,7 +3,7 @@ import React from 'react'
 function Review(props) {
   return (
     <>
-      <div className="card card-compact bg-base-100 w-96 ">
+      <div className="card card-compact bg-base-100 w-80 ">
   <figure>
     <img
       src={props.img}

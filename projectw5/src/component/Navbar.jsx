@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <>
     
-    <div className="container-navba mt-5 flex justify-around items-baseline">
+    <div className="container-navba mt-5 flex justify-around items-baseline ">
 
         
     
@@ -37,7 +37,7 @@ function Navbar() {
             </ul>
         </div>
 
-        <div className="dropdown ">
+        <div className="dropdown" style={{position: 'relative', right:'13px' }}>
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
