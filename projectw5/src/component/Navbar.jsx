@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <>
@@ -19,10 +19,10 @@ function Navbar() {
             <ul className="ul-list text-[12px]  justify-evenly gap-10 pt-10 font-bold hidden  lg:flex ">
            
             <li>
-              <a className="text-[#bf7c68]">HOME</a>
+              <Link to='/' className=" hover:text-orange-400">HOME</Link>
             </li>
             <li>
-              <a>ABOUT</a>
+              <Link to='/about' className=" hover:text-orange-400">ABOUT</Link>
             </li>
             <li>
               <a>REVIEW</a>
@@ -31,7 +31,7 @@ function Navbar() {
               <a>VIDEO</a>
             </li>
             <li>
-              <a>CONTACT</a>
+              <Link to='/contact'>CONTACT</Link>
             </li>
                 
             </ul>
@@ -59,10 +59,10 @@ function Navbar() {
               className="menu dropdown-content bg-base-100 rounded-box z-[1] mt-3 p-2 shadow"
             >
               <li>
-              <a className="text-[#bf7c68]">HOME</a>
+              <Link to='/' className="text-[#bf7c68]">HOME</Link>
             </li>
             <li>
-              <a>ABOUT</a>
+              <Link to='/about'>ABOUT</Link>
             </li>
             <li>
               <a>REVIEW</a>
@@ -71,7 +71,7 @@ function Navbar() {
               <a>VIDEO</a>
             </li>
             <li>
-              <a>CONTACT</a>
+            <Link to='/contact'>CONTACT</Link>
             </li>
             </ul>
           </div>
